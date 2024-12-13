@@ -27,15 +27,19 @@ cargo 1.83.0 (5ffbef321 2024-10-29)
 
 # Ignore files
 .gitignore for executable crates
+```
    # Generated files
    /target/
+```
 
 .gitignore for library crates
+```
    # Generated files
    /target/
 
    # Well, this depends... See below!
    Cargo.lock
+```
 
 Reference:
 https://stackoverflow.com/questions/43667176/what-files-in-a-cargo-project-should-be-in-my-gitignore
