@@ -1,17 +1,17 @@
-Rust Notes
+# Rust Notes
 
-# Installation on Linux
+## Installation on Linux
 The primary way that folks install Rust is through a tool called Rustup, which is a Rust installer and version management tool.
 To download Rustup and install Rust, run the following in your terminal, then follow the on-screen instructions.
 
 > curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-# Update Rust
+## Update Rust
 Rust updates very frequently. If you have installed Rustup some time ago, chances are your Rust version is out of date. Get the latest version of Rust by running:
 
 > rustup update
 
-# Cargo
+## Cargo
 Build tool and package manager. Cargo does lots of things:
 
 > - cargo build   : build project
@@ -25,7 +25,7 @@ To test installation:
 > cargo --version
 cargo 1.83.0 (5ffbef321 2024-10-29)
 
-# Ignore files
+## Ignore files
 .gitignore for executable crates
 ```
    # Generated files
