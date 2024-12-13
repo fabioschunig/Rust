@@ -14,11 +14,11 @@ Rust updates very frequently. If you have installed Rustup some time ago, chance
 # Cargo
 Build tool and package manager. Cargo does lots of things:
 
-> cargo build   : build project
-> cargo run     : run project
-> cargo test    : test project
-> cargo doc     : build documentation
-> cargo publish : publish a library to crates.io (https://crates.io/)
+> - cargo build   : build project
+> - cargo run     : run project
+> - cargo test    : test project
+> - cargo doc     : build documentation
+> - cargo publish : publish a library to crates.io (https://crates.io/)
 
 To test installation:
 
