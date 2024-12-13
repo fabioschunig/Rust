@@ -1,0 +1,7 @@
+Rust Notes
+
+# Installation on Linux
+The primary way that folks install Rust is through a tool called Rustup, which is a Rust installer and version management tool.
+To download Rustup and install Rust, run the following in your terminal, then follow the on-screen instructions.
+
+> curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
