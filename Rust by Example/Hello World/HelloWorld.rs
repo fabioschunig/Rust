@@ -21,8 +21,8 @@ fn main() {
 // https://doc.rust-lang.org/rust-by-example/macros.html
 
 // A binary can be generated using the Rust compiler: rustc.
-// $ rustc hello.rs
+// $ rustc HelloWorld.rs
 
-// rustc will produce a hello binary that can be executed.
-// $ ./hello
+// rustc will produce a HelloWorld binary that can be executed.
+// $ ./HelloWorld
 // Hello World!
