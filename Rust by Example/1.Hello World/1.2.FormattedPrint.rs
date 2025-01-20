@@ -7,7 +7,7 @@
 //   > eprint!: same as print! but the text is printed to the standard error (io::stderr).
 //   > eprintln!: same as eprint! but a newline is appended.
 //
-// All parse text in the same fashion. 
+// All parse text in the same fashion.
 // As a plus, Rust checks formatting correctness at compile time.
 //
 // [¹] Macros   https://doc.rust-lang.org/rust-by-example/macros.html
@@ -74,15 +74,15 @@ fn main() {
     println!("{number:>width$}");
 }
 
-// std::fmt contains many traits [¹] which govern the display of text. 
+// std::fmt contains many traits [¹] which govern the display of text.
 // The base form of two important ones are listed below:
 //   > fmt::Debug: Uses the {:?} marker. Format text for debugging purposes.
 //   > fmt::Display: Uses the {} marker. Format text in a more elegant, user friendly fashion.
 
-// Here, we used fmt::Display because the std library provides implementations for these types. 
+// Here, we used fmt::Display because the std library provides implementations for these types.
 // To print text for custom types, more steps are required.
 
-// Implementing the fmt::Display trait automatically implements the ToString [²] trait which 
+// Implementing the fmt::Display trait automatically implements the ToString [²] trait which
 // allows us to convert [³] the type to String.
 
 // In line 43, #[allow(dead_code)] is an attribute [⁴] which only applies to the module after it.
