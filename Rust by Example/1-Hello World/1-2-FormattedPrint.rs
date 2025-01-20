@@ -72,6 +72,10 @@ fn main() {
     let number: f64 = 1.0;
     let width: usize = 5;
     println!("{number:>width$}");
+
+    // Activity in doc page
+    let pi = 3.141592;
+    println!("Pi is roughly {0:.3}", pi);
 }
 
 // std::fmt contains many traits [¹] which govern the display of text.
