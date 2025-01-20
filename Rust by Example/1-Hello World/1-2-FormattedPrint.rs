@@ -95,3 +95,10 @@ fn main() {
 // [²] ToString     https://doc.rust-lang.org/std/string/trait.ToString.html
 // [³] convert      https://doc.rust-lang.org/rust-by-example/conversion/string.html
 // [⁴] attribute    https://doc.rust-lang.org/rust-by-example/attribute.html
+
+// # Activities
+// Add a println! macro call that prints: "Pi is roughly 3.142" by controlling the number of decimal
+// places shown. For the purposes of this exercise, use let pi = 3.141592 as an estimate for pi.
+// (Hint: you may need to check the std::fmt [¹] documentation for setting the number of decimals to display)
+
+// [¹] precison     https://doc.rust-lang.org/std/fmt/#precision
