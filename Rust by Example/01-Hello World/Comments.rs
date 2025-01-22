@@ -1,3 +1,4 @@
+// 1.1. Comments
 // https://doc.rust-lang.org/rust-by-example/hello/comment.html
 
 // # Regular comments which are ignored by the compiler:

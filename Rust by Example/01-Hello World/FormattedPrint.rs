@@ -1,3 +1,4 @@
+// 1.2. Formatted print
 // https://doc.rust-lang.org/rust-by-example/hello/print.html
 
 // Printing is handled by a series of macros [¹] defined in std::fmt [²] some of which are:
